@@ -1,0 +1,15 @@
+- title: Documentation
+  pages:
+    - title: Overview
+    - title: Drive preparation
+    - title: How to use Fuji
+
+- title: Common issues
+  pages:
+    - title: Errors using ASR
+    - title: Missing Apple Mail data
+
+- title: Development
+  pages:
+    - title: Building from source
+    - title: Useful resources

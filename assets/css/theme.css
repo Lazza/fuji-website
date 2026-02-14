@@ -119,8 +119,18 @@
   filter: var(--icon-filter);
 }
 
-#site-header-brand {
+hr {
+    border-bottom: 1px solid var(--color3);
+    margin: 2rem 0;
+    opacity: 0.2;
+}
+
+body #site-header-brand {
     font-weight: bold;
+}
+
+body #article-footer {
+    padding-top: 5em;
 }
 
 .cover h1 {
