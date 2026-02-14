@@ -51,6 +51,7 @@ params:
   donate:
     buyMeACoffee: ''
     githubSponsor: ''
+    kofi: 'thelazza'
 
   algolia:
     en:
