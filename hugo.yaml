@@ -1,5 +1,9 @@
 theme: docura
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 enableGitInfo: true
 
 defaultContentLanguage: en
