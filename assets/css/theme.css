@@ -146,3 +146,19 @@ body #article-footer {
 body #site-header-search {
     display: none;
 }
+
+figure {
+    text-align: center;
+    margin: 2em 0;
+}
+
+figcaption {
+    font-size: 0.8em;
+    color: var(--color3);
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.icon-figure img {
+    width: 16em;
+}
