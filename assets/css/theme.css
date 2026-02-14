@@ -137,3 +137,7 @@ body #article-footer {
     font-weight: bold;
     color: var(--chroma-base08);
 }
+
+.cover .download-button {
+    margin-top: 2em;
+}
