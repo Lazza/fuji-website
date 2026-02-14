@@ -141,3 +141,8 @@ body #article-footer {
 .cover .download-button {
     margin-top: 2em;
 }
+
+/* Hide Algolia search bar */
+body #site-header-search {
+    display: none;
+}
