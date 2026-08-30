@@ -1,0 +1,33 @@
+:root {
+  --md-text-font: "Inter";
+  --md-code-font: "Cascadia Mono", Menlo, Consolas, "DejaVu Sans Mono", "Lucida Console";
+}
+
+/* Homepage: keep the landing uncluttered, closer to the old cover. */
+.home-hero {
+  text-align: center;
+}
+
+.home-hero .headerlink {
+    display: none;
+}
+
+.home-hero .md-button + .md-button {
+  margin-left: 0.5rem;
+}
+
+.home-hero h1 {
+    margin-bottom: 0;
+}
+
+.home-hero h3 {
+    margin-top: 0.5rem;
+}
+
+.home-buttons {
+    margin: 4em auto;
+}
+
+figure.icon-figure img {
+  max-width: 256px;
+}

@@ -1,0 +1,30 @@
+---
+title: Overview
+---
+
+<figure markdown="span">
+![Window showing the main interface of the program](../img/screenshots/main.png){ width="522" }
+<figcaption>Main interface of Fuji</figcaption>
+</figure>
+
+Fuji is a free, open-source program for performing forensic acquisition of Mac
+computers. It should work on any modern Intel or Apple Silicon device, as it
+leverages standard executables provided by macOS.
+
+Fuji performs a so-called *live acquisition* (the computer must be turned on) of
+*logical* nature, i.e. it includes only existing files. The tool generates a DMG
+file that can be imported in several digital forensics programs.
+
+It is released under the terms of the GNU General Public License (version 3).
+
+You can download the latest version from GitHub:
+
+[![Download now](https://badgen.net/static/icon/Download%20now?icon=apple&label&scale=2)](https://github.com/Lazza/Fuji)
+
+---
+
+If you find my work in open-source digital forensics valuable, please consider
+supporting it with a donation. Your contributions help sustain the development
+and maintenance of tools like Fuji.
+
+[![Donate on Ko-fi](https://badgen.net/static/Ko-fi/donate?color=e05958&icon=kofi&scale=2&labelColor=579fbf)](https://ko-fi.com/thelazza)
