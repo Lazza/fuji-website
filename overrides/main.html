@@ -1,4 +1,10 @@
 {% extends "base.html" %}
+{% block site_meta %}
+  {{ super() | replace(
+    "width=device-width,initial-scale=1",
+    "width=device-width,initial-scale=1,viewport-fit=cover"
+  ) | safe }}
+{% endblock %}
 {% block extrahead %}
   {{ super() }}
   <link rel="manifest" href="/manifest.json">

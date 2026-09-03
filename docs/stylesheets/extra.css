@@ -3,6 +3,14 @@
   --md-code-font: "Cascadia Mono", Menlo, Consolas, "DejaVu Sans Mono", "Lucida Console";
 }
 
+.md-header {
+  padding-top: env(safe-area-inset-top);
+}
+
+.md-footer-meta {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
 /* Homepage: keep the landing uncluttered, closer to the old cover. */
 .home-hero {
   text-align: center;
