@@ -31,3 +31,11 @@
 figure.icon-figure img {
   max-width: 256px;
 }
+
+iframe[src*="youtube.com"] {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
